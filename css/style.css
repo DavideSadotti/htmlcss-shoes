@@ -13,6 +13,7 @@ nav{
   margin-right: 30px;
   position: fixed;
   right: 0;
+  z-index: 9;
 }
 
 nav li{
@@ -31,8 +32,18 @@ nav li a{
 
 /* MAIN */
 section{
-  height: 800px;
+  height: 950px;
   border-bottom: 1px solid black;
+  position: relative;
+}
+
+h2{
+  font-size: 50px;
+  color: yellow;
+}
+
+section:last-child h2:last-child{
+  color: green;
 }
 
 #box-rosso{
@@ -48,3 +59,11 @@ section{
 }
 
 /* POSIZIONE IMMAGINI */
+.posizione-immagine{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  text-align: center;
+  margin-top: -50px;
+}
