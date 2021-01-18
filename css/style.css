@@ -8,9 +8,11 @@ body{
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* NAVBAR */
 nav{
-  text-align: right;
   margin-right: 30px;
+  position: fixed;
+  right: 0;
 }
 
 nav li{
@@ -21,7 +23,28 @@ nav li{
 nav li a{
   text-decoration: none;
   color: #000000;
-  border: 1px solid #000000;
+  box-shadow: 1px 1px 5px #888888;
   border-radius: 100%;
-  padding: 2px 5px;
+  padding: 7px 10px;
+  background-color: #ffffff;
 }
+
+/* MAIN */
+section{
+  height: 800px;
+  border-bottom: 1px solid black;
+}
+
+#box-rosso{
+  background-color: red;
+}
+
+#box-giallo{
+  background-color: yellow;
+}
+
+#box-verde{
+  background-color: green;
+}
+
+/* POSIZIONE IMMAGINI */
